@@ -9,7 +9,7 @@ from pypexels import PyPexels
 
 def generate_video_with_text(second_parts, combined_text, output_file="final_output_video.mp4"):
     # Pexels API setup
-    PEXELS_API_KEY = '0fYfPoddp4VMD6mKGw853H2JEBfCTH4BpqeU0MY03xBybBGsCf9J1T2m'
+    PEXELS_API_KEY = ''
     py_pexels = PyPexels(api_key=PEXELS_API_KEY)
 
     # Generate audio and calculate durations using librosa
