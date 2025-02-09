@@ -11,7 +11,7 @@ from video_gen import generate_video_with_text
 from youtube import get_youtube_links
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyDm9zT2nZo1KAn6vYgzNPFnx7vhql572lk"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Function to extract text from PDF
